@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0; 
+    color: #F0FFFF;
+}
+
+.frontpage {
+    background-image: url(./Images/pexels-pixabay-268415.jpg);
+    padding: 25px; 
+    height: 100vh; 
+    position: relative;
+}
+
+.overlay {
+   background-color: rgba(0, 0, 0, 0.3); 
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1; 
+}
+
+.frontpage-overlay {
+    position: relative;
+    z-index: 2;
+}
+
+.navlogo {
+    font-weight: bold;
+    font-size: 30px;    
+}
+
+.nav-bar {
+    display: flex;
+    margin: auto;
+    height: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 30px; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-list li a {
+     text-decoration: none;
+}
+
+.nav-list li a:hover {
+    color: purple; 
+}
+
+nav > a {
+    color: #F0FFFF;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #FF6C1A; 
+    padding: 10px 18px;
+    border-radius: 15px;
+}
+
+nav > a:hover {
+    color: purple;
+}
+
+.description {
+    margin-left:4% ;
+    margin-top: 6%;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+p {
+    font-size: 20px;
+    letter-spacing:1px ;
+    line-height: 25px;
+}
+
+.description a {
+   text-decoration: none; 
+   color: #F0FFFF;
+   background:#FF6C1A;
+   font-size: 24px;
+   margin: 40px 0;  
+   padding: 10px 25px; 
+   border-radius: 10px;
+   display: inline-block;
+}
+
+.description a:hover {
+    color: purple; 
+}
